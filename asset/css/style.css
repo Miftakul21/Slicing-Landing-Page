@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Lato:wght@400;700;900&display=swap");
+
+:root {
+  --main-color: #eeddcc;
+  --second-color: #413531;
+  --third-color: #faf5f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ff-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.ff-frank {
+  font-family: "Frank Ruhl Libre", sans-serif;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 1rem;
+}
+
+.new-collection .row .col-4 a,
+.card-testimonial h5,
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.container-num-product .col-4 h3,
+.fs-40 {
+  font-size: 40px !important;
+}
+
+.fs-42 {
+  font-size: 42px;
+}
+
+.content-header .left h1,
+.fs-90 {
+  font-size: 90px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 100vh;
+  background: var(--main-color);
+}
+
+.header .bg-element-1 {
+  right: 0;
+}
+
+.header .bg-element-1 img {
+  height: 10%;
+}
+
+.header .bg-element-2 {
+  bottom: 0;
+}
+
+.header .bg-element-2 img {
+  width: 50%;
+}
+
+.header .bg-blink-1 {
+  top: 18%;
+  left: -3%;
+}
+
+.header .bg-blink-2 {
+  top: 18%;
+  right: 10%;
+  z-index: 1;
+}
+
+.header .bg-blink-3 {
+  top: 70%;
+  right: 36%;
+  z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+}
+
+nav ul li a {
+  color: var(--main-color);
+}
+
+.container-menu {
+  gap: 40px;
+}
+
+.notifikasi-menu .message {
+  width: 18px;
+  height: 18px;
+  top: -5px;
+  right: -5px;
+  background: red;
+  border-radius: 50%;
+}
+
+.notifikasi-menu .message::after {
+  content: "1";
+  color: #fff;
+}
+
+.container-menu a {
+  padding: 10px 20px;
+  color: var(--dark-color);
+  border: 1px solid #413531;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.container-menu a:hover {
+  background: var(--second-color);
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+
+/* Header (Content) */
+.content-header {
+  margin: 120px 0;
+}
+
+.content-header .left h1 {
+  line-height: 1;
+}
+
+.content-header .left p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.content-header .left a {
+  padding: 16px 40px;
+  background-color: var(--second-color);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.content-header .left a:hover {
+  padding: 16px 40px;
+  background: transparent;
+  border: 1px solid #000;
+  color: #000;
+  transition: 0.5s;
+}
+
+.content-header .right .bg-hero-section {
+  top: -50px;
+  width: 420px;
+  height: 500px;
+  border-bottom-left-radius: 35%;
+  overflow: hidden;
+}
+
+.content-header .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Collection */
+.new-collection {
+  margin-top: 80px;
+}
+
+.new-collection h1 {
+  font-size: 68px;
+}
+
+.new-collection .row .col-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.new-collection .row .col-4 a {
+  padding: 16px 0;
+  left: 45px;
+  right: 45px;
+  bottom: 20px;
+  background: #fff;
+  color: var(--second-color);
+}
+
+.new-collection .bg-element-3 {
+  right: -5%;
+  bottom: -20%;
+}
+
+.new-collection .bg-blink-4 {
+  right: 0;
+  bottom: -12%;
+}
+
+/* Section Best Fashion */
+.best-section {
+  margin-top: 300px;
+}
+
+.best-section .container .bg-blink-5 {
+  top: -10%;
+  left: 45%;
+  z-index: 1;
+}
+
+.best-section .col-5 h1 {
+  font-size: 68px;
+  color: var(--second-color);
+}
+
+.best-section .col-5 p {
+  color: var(--second-color);
+}
+
+.best-section .col-6 .bg-hero-section {
+  width: 100%;
+  height: 662px;
+  border-top-left-radius: 35%;
+  overflow: hidden;
+}
+
+.best-section .col-6 .bg-hero-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-num-product {
+  text-align: center;
+  width: 739px;
+  height: 173px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 0.9px solid rgba(0, 0, 0, 0.255);
+  z-index: 1;
+  right: 0;
+  bottom: -90%;
+}
+
+.container-num-product .col-4 h3 {
+  color: var(--second-color);
+  text-align: center;
+}
+
+.container-num-product .col- p {
+  color: var(--second-color);
+  text-align: center;
+}
+
+.best-section .container .bg-element-4 {
+  width: 20x;
+  left: -5%;
+  bottom: -130%;
+  z-index: 1;
+}
+
+/* Section Best Seller */
+.best-seller {
+  margin-top: 600px;
+}
+
+.best-seller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 743px;
+  background: var(--second-color);
+}
+
+.container-best-seller h1 {
+  color: #fff;
+  font-size: 52px;
+}
+
+.container-best-seller a {
+  padding: 13px 45px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+.container-best-seller .col-3 a:hover {
+  background: #fff;
+  border: 1 solid var(--second-color);
+  color: var(--second-color);
+  transition: 0.5s;
+}
+
+.container-best-seller .mySwiper {
+  display: flex;
+  gap: 1000px;
+}
+
+.best-seller .swiper-slide .card {
+  width: 16rem;
+  height: 24rem;
+}
+
+.card-text {
+  color: var(--second-color);
+}
+
+.price {
+  margin-top: -12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.price p:nth-child(1) {
+  color: #c20a0a84;
+  text-decoration: line-through;
+}
+
+/* Our Product */
+.our-product {
+  margin-top: 80px;
+}
+
+.our-product .link-our-product ul {
+  margin: 32px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.our-product .link-our-product ul li a {
+  color: var(--second-color);
+}
+
+.our-product .link-our-product ul li:nth-child(1) a {
+  font-weight: 900;
+  border-bottom: 2px solid var(--second-color);
+}
+
+/* Section Deal */
+.deal {
+  height: 500px;
+  margin-top: 50px;
+}
+
+.deal .bg-element-5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.deal .bg-blink-6 {
+  right: 15%;
+  bottom: 15%;
+  z-index: 1;
+}
+
+.container-deal {
+  padding: 5%;
+  background: var(--third-color);
+}
+
+.deal .container-deal h1 {
+  color: var(--second-color);
+  font-size: 48px;
+}
+
+.deal .container-deal p {
+  color: var(--second-color);
+}
+
+.container-timer .box {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container-deal a {
+  display: inline-block;
+  padding: 20px 30px;
+  background: var(--second-color);
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.container-deal .col-5 .deal-image img {
+  width: 386px;
+  height: 430px;
+  object-fit: cover;
+}
+
+/* Testimonial */
+.testimonial {
+  margin-top: 160px;
+}
+
+.card-testimonial {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 25rem;
+  height: 30rem;
+  background: #faf5f0;
+}
+
+.card-testimonial .card-title {
+  color: var(--second-color);
+}
+
+.card-testimonial .card-text {
+  color: var(--second-color);
+}
+
+.card-testimonial .person {
+  padding-top: 4rem;
+}
+
+/* Section Image Footer */
+.image-footer {
+  margin-top: 150px;
+  display: flex;
+}
+
+.image-footer .box-image-footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Section Footer */
+footer {
+  padding: 20px 0;
+  background: var(--second-color);
+}
+
+footer .container-link-footer ul {
+  display: flex;
+  gap: 30px;
+  margin-top: 45px;
+  justify-content: center;
+}
+
+footer .container-link-footer ul li a {
+  color: #fff;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height: 60px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-footer span {
+  text-align: center;
+  color: var(--second-color);
+  font-weight: bold;
+}
+
+/* Responsive Tablet */
+@media (max-width: 850px) {
+  /* Header */
+  .content-header .left h1 {
+    font-size: 45px;
+  }
+
+  .content-header .left p {
+    font-size: 18px;
+  }
+
+  .content-header .right .bg-hero-section {
+    top: -4%;
+    width: 325px;
+    height: 420px;
+  }
+
+  /* Image Blink And Elemenet */
+  .header .bg-element-1 {
+    top: -15%;
+    right: -15%;
+  }
+
+  .header .bg-blink-1 {
+    top: 10%;
+    left: -12%;
+  }
+
+  .header .bg-blink-2 {
+    top: 25%;
+    right: 5%;
+  }
+
+  .header {
+    height: 680px;
+  }
+
+  /* Collection */
+  .new-collection h1 {
+    font-size: 40px;
+  }
+
+  .new-collection p {
+    font-size: 17px;
+  }
+
+  .new-collection .row .col-4 img {
+    height: 150%;
+  }
+
+  .new-collection .row .col-4 a {
+    padding: 8px 15px;
+    bottom: -40%;
+  }
+
+  .new-collection .bg-blink-4 {
+    right: -5%;
+    bottom: -42%;
+  }
+
+  .new-collection .bg-element-3 {
+    right: -15%;
+    bottom: -70%;
+  }
+
+  /* Best Fashion */
+  .bg-element-4 img {
+    width: 120px;
+  }
+
+  .best-section .container .bg-element-4 {
+    left: -3%;
+    bottom: -48%;
+  }
+
+  .best-section .col-6 .bg-hero-section {
+    height: 400px;
+  }
+
+  .best-section .container .bg-blink-5 {
+    top: -8%;
+    left: 36%;
+  }
+
+  .best-section .col-5 h1 {
+    font-size: 40px;
+  }
+
+  .best-section .col-5 p {
+    font-size: 16px;
+  }
+
+  .container-num-product {
+    width: 480px;
+    height: 130px;
+    bottom: unset;
+  }
+
+  .container-num-product .col-4 h3 {
+    font-size: 25px !important;
+  }
+
+  .container-num-product .col-4 span {
+    font-size: 14px;
+  }
+
+  /* Best Seller */
+  .best-seller {
+    margin-top: 320px;
+    height: 553px;
+  }
+
+  .best-seller h1 {
+    font-size: 40px;
+  }
+
+  .best-seller p {
+    font-size: 16px;
+  }
+
+  .best-seller a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+
+  .best-seller .swiper-slide .card {
+    width: 10rem;
+    height: 18rem;
+  }
+
+  /* Deal */
+  .deal .col-md-10 {
+    margin: 0 auto;
+  }
+
+  .deal a {
+    margin-top: 40px;
+  }
+
+  /* Testimonial */
+  .testimonial {
+    margin-top: 5px;
+  }
+
+  .card-testimonial {
+    width: 22rem;
+    height: 32rem;
+  }
+}
