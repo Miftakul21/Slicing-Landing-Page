@@ -22,17 +22,17 @@
       <div class="bg-element-1 position-absolute">
         <img src="asset/image/bg-element-1.svg" />
       </div>
-      <div class="bg-blink-1 position-absolute">
+      <div class="bg-blink-1 position-absolute d-none d-lg-block d-md-block">
         <img src="asset/image/bg-blink.svg" />
       </div>
-      <div class="bg-blink-2 position-absolute">
+      <div class="bg-blink-2 position-absolute d-none d-lg-block d-md-block">
         <img src="asset/image/bg-blink.svg" />
       </div>
-      <div class="bg-blink-3 position-absolute">
+      <div class="bg-blink-3 position-absolute d-none d-lg-block d-md-block">
         <img src="asset/image/bg-blink.svg" />
       </div>
       <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-transparent">
-        <div class="container">
+        <div class="container mt-sm-2">
           <a class="navbar-brand nav-title fw-bolder ff-lato" href="#">FIFASH</a>
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav mx-lg-auto mb-2 mb-lg-0 mx-md-auto mb-md-0">
@@ -59,6 +59,11 @@
               </div>
               <a href="#" class="btn-login fs-14">Login</a>
             </div>
+          </div>
+
+          <div class="container-menu-mobile d-block d-lg-none d-md-none">
+            <a href="#" class="btn-login fs-14">Login</a>
+            <img src="asset/image/icon-menu-mobile.svg" alt="menu-mobile" />
           </div>
         </div>
       </nav>
@@ -88,27 +93,26 @@
     <!-- Section New Collection -->
     <section class="new-collection">
       <div class="container position-relative">
-        <div class="bg-element-3 position-absolute">
+        <div class="bg-element-3 position-absolute d-none d-lg-block d-md-block">
           <img src="asset/image/bg-element-3.svg" />
         </div>
-        <div class="bg-blink-4 position-absolute">
+        <div class="bg-blink-4 position-absolute d-none d-lg-block d-md-block">
           <img src="asset/image/bg-blink.svg" />
         </div>
-
         <h1 class="text-center ff-frank fw-700">New Collection</h1>
         <p class="text-center fw-400 fs-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros</p>
         <div class="row">
-          <div class="col-4 position-relative">
-            <img src="asset/image/girl-9.jpg" />
-            <a href="#" class="ff-lato fw-900 position-absolute d-flex justify-content-center">SWEETER</a>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-5 card-collection position-relative">
+            <img src="asset/image/girl-4.jpg" style="width: 100%; height: 300px; object-fit: cover" />
+            <a href="#" class="ff-lato fw-900 text-center">SWEETER</a>
           </div>
-          <div class="col-4 position-relative">
-            <img src="asset/image/girl-8.jpg" />
-            <a href="#" class="ff-lato fw-900 position-absolute d-flex justify-content-center">LONG SLEEVE</a>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-5 card-collection position-relative">
+            <img src="asset/image/girl-4.jpg" style="width: 100%; height: 300px; object-fit: cover" />
+            <a href="#" class="ff-lato fw-900 text-center">LONG SLEEVE</a>
           </div>
-          <div class="col-4 position-relative">
-            <img src="asset/image/girl-4.jpg" />
-            <a href="#" class="ff-lato fw-900 position-absolute d-flex justify-content-center">T-SHIRT</a>
+          <div class="col-lg-4 col-md-4 col-sm-6 mb-5 card-collection position-relative">
+            <img src="asset/image/girl-4.jpg" style="width: 100%; height: 300px; object-fit: cover" />
+            <a href="#" class="ff-lato fw-900 text-center">T-SHIRT</a>
           </div>
         </div>
       </div>
@@ -118,19 +122,19 @@
     <!-- Section Best Fashion -->
     <section class="best-section">
       <div class="container position-relative">
-        <div class="bg-blink-5 position-absolute">
+        <div class="bg-blink-5 position-absolute d-none d-lg-block d-md-block">
           <img src="asset/image/bg-blink.svg" />
         </div>
-        <div class="bg-element-4 position-absolute">
+        <div class="bg-element-4 position-absolute d-none d-lg-block d-md-block">
           <img src="asset/image/bg-element-4.svg" />
         </div>
         <div class="row">
-          <div class="col-6 position-relative">
-            <div class="bg-hero-section position-absolute">
+          <div class="col-lg-6 col-md-6">
+            <div class="bg-hero-section d-none d-lg-block d-md-block">
               <img src="asset/image/girl-3.jpg" />
             </div>
           </div>
-          <div class="col-5 offset-lg-1 offset-md-1">
+          <div class="col-lg-5 col-md-5 col-sm-6 text-sm-center offset-lg-1 offset-md-1">
             <h1 class="pl-1 fw-700 ff-frank">Best Fashion Since 2014</h1>
             <p class="pl-1 ff-lato fs-20 fw-400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros, eget tincidunt ipsum eleifend ut orem ipsum dolor sit amet consectetur adipiscing elit Sed ullamcorper congue eros eleifend ut tincidunt
@@ -139,10 +143,10 @@
           </div>
         </div>
 
-        <div class="container-num-product position-absolute">
+        <div class="container-num-product position-absolute d-none d-lg-block d-md-block">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-4">
+            <div class="row pt-5 pt-5 pt-md-4">
+              <div class="col-4 col-md-4">
                 <h3 class="ff-frank fw-700">2014</h3>
                 <p class="ff-lato fw-400">FiFash Founded</p>
               </div>
@@ -157,6 +161,23 @@
             </div>
           </div>
         </div>
+
+        <div class="container container-num-product-mobile" style="border: 0.9px solid rgba(0, 0, 0, 0.255)">
+          <div class="row text-center pt-3 pb-3 justify-content-center align-items-center">
+            <div class="col-4">
+              <h3 class="ff-frank fw-700">2014</h3>
+              <p class="ff-lato fw-400">FiFash Founded</p>
+            </div>
+            <div class="col-4 border-start border-end">
+              <h3 class="ff-frank fw-700">8900+</h3>
+              <p class="ff-lato fw-400">Product Sold</p>
+            </div>
+            <div class="col-4">
+              <h3 class="ff-frank fw-700">3105+</h3>
+              <p class="ff-lato fw-400">Best Reviews</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- End Best Section -->
@@ -165,12 +186,12 @@
     <section class="best-seller position-relative">
       <div class="container container-best-seller">
         <div class="row">
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-3 col-md-4 col-sm-6">
             <h1 class="ff-frank fw-700">Best Seller Product</h1>
             <p class="pt-2 pb-2 fw-400 fs-20 ff-lato text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros</p>
             <a href="#">SEE MORE</a>
           </div>
-          <div class="col-lg-8 col-md-8 offset-lg-1 offset-md-0">
+          <div class="col-lg-8 col-md-8 col offset-lg-1 offset-md-0 d-none d-lg-block d-md-block">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -265,6 +286,18 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-5 card-mobile">
+          <img src="asset/image/girl-1.jpg" class="card-img-top" style="width: 100%; object-fit: cover" />
+          <div class="card-body">
+            <img src="asset/image/star-review.svg" alt="" style="display: block; margin: 0 auto" />
+            <p class="card-text text-center">Pastel Long Sleeve</p>
+            <div class="price" style="margin: 0 auto; margin-top: -10px">
+              <p>$400</p>
+              <p>$200</p>
             </div>
           </div>
         </div>
@@ -399,17 +432,17 @@
     <!-- Section Deal -->
     <section class="deal">
       <div class="container container-deal position-relative">
-        <div class="bg-element-5 d-md-none d-lg-block">
+        <div class="bg-element-5 d-none d-lg-block">
           <img src="asset/image/bg-element-1.svg" style="height: 380px" />
         </div>
-        <div class="bg-blink-6 position-absolute d-md-none d-lg-block">
+        <div class="bg-blink-6 position-absolute d-none d-lg-block">
           <img src="asset/image/bg-blink.svg" />
         </div>
         <div class="row">
           <div class="col-lg-5 col-md-10 text-md-center text-lg-start">
             <h1 class="ff-frank fw-700">Deal of The Day</h1>
             <p class="ff-lato fs-18 fw-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue erosget tincidunt</p>
-            <div class="container-timer">
+            <div class="container-timer d-none d-lg-block d-md-block">
               <div class="row">
                 <div class="col-lg-4 col-md-3 offset-md-2 offset-lg-0">
                   <div class="box">
@@ -431,9 +464,27 @@
                 </div>
               </div>
             </div>
+
+            <div class="container container-num-product-mobile" style="border: 0.9px solid rgba(0, 0, 0, 0.255); background: #fff">
+              <div class="row text-center pt-3 pb-3 justify-content-center align-items-center">
+                <div class="col-4">
+                  <h2 class="ff-lato fw-700 fs-42">08</h2>
+                  <span class="fs-16 fw-400">Days</span>
+                </div>
+                <div class="col-4 border-start border-end">
+                  <h2 class="ff-lato fw-700 fs-42">09</h2>
+                  <span class="fs-16 fw-400">Hours</span>
+                </div>
+                <div class="col-4">
+                  <h2 class="ff-lato fw-700 fs-42">04</h2>
+                  <span class="fs-16 fw-400">Min</span>
+                </div>
+              </div>
+            </div>
+
             <a href="#">SHOP NOW</a>
           </div>
-          <div class="col-5 offset-1 d-md-none d-lg-block">
+          <div class="col-5 offset-1 d-none d-lg-block">
             <div class="deal-image position-relative">
               <img src="asset/image/girl-6.jpg" />
             </div>
@@ -592,7 +643,6 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        // spaceBetween: 80,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
